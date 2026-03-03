@@ -9,3 +9,8 @@ dependencies = [
     "numpy>=2.4.2",
     "sympy>=1.14.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.19.0",
+]
