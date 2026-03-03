@@ -24,7 +24,7 @@ jobs:
         run: uv sync
 
       - name: Build executable
-        run: uv run pyinstaller function_viz.spec --onefile --windowed
+        run: uv run pyinstaller function_viz.spec
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
